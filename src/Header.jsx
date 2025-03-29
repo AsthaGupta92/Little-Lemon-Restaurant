@@ -1,12 +1,29 @@
 import logo from "/logo.jpeg";
 const Header = () => {
     return(
-        <header>
+      <section className="header">
+        <article>
+        <header >
               {
-                <img src = {logo} alt="logo" />
+                <img src = {logo} alt="logo" width="200px" />
 
                  }
-        </header> )
+        </header>
+</article>
+        <article className="nav">
+        <nav>
+            <ul className="nav-ul">
+                   <li className="nav-li"><a className="nav-a" href="">Home</a></li>
+                   <li className="nav-li"><a className="nav-a" href="">About</a></li>
+                   <li className="nav-li"><a className="nav-a" href="">Menu</a></li>
+                   <li className="nav-li"><a className="nav-a"href="">Reservations</a></li>
+                   <li className="nav-li"><a className="nav-a"href="">Order Online</a></li>
+                   <li className="nav-li"><a className="nav-a"href="">Login</a></li>
+            </ul>
+        </nav>
+
+        </article>
+        </section>)
 }
 
 export default Header;

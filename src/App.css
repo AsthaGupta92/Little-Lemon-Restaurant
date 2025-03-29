@@ -1,9 +1,4 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+
 
 .logo {
   height: 6em;
@@ -39,4 +34,73 @@
 
 .read-the-docs {
   color: #888;
+}
+
+section.header {
+  display:flex;
+}
+
+img{
+  flex: 1;
+  width: 200px;
+  height: 70px;
+}
+
+article.nav{
+flex: 1;
+}
+
+ul.nav-ul {
+list-style-type: none;
+margin:0;
+padding: 0;
+overflow: hidden;
+color: black;
+flex: 1;
+}
+
+li.nav-li {
+float: right;
+}
+
+.nav-a {
+  display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+}
+
+button.btn {
+  width: 198;
+  height: 45;
+  background-color: #F4CE14;
+  color: black;
+  border: black;
+  border-radius: 12;
+  font-family: karla;
+  font-weight: bold;
+  font-size: 24;
+  box-shadow: 1px 1px darkgray;
+}
+
+section.little-lemon {
+  display: flex;
+  background-color: #495E57;
+  color: #EDEFEE;
+}
+
+h1 {
+  color: #F4CE14;
+  font-family: Markazi;
+  font-weight: bold;
+  font-size: 64;
+}
+article.bio {
+  flex: 1;
+}
+
+article.bio-img {
+  flex: 1;
+  width: 253px;
+  height: 291px;
 }
