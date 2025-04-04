@@ -1,6 +1,11 @@
+*{
+  text-align: center;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
-
-.logo {
+/*.logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -34,20 +39,23 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
 
 section.header {
   display:flex;
+  flex-direction: row;
 }
 
-img{
+img.header-logo{
   flex: 1;
-  width: 200px;
-  height: 70px;
+  width: 20vw;
+  height: 10vh;
+  padding: 0px;
 }
 
 article.nav{
 flex: 1;
+width: max-content;
 }
 
 ul.nav-ul {
@@ -57,22 +65,93 @@ padding: 0;
 overflow: hidden;
 color: black;
 flex: 1;
+float: right;
 }
 
 li.nav-li {
 float: right;
+
+padding-top: 5px;
+margin: 5px;
 }
 
 .nav-a {
-  display: block;
+display: block;
 color: black;
 text-align: center;
-padding: 14px 16px;
+/*padding: 13px 15px;*/
 }
 
 button.btn {
-  width: 198;
-  height: 45;
+  width: 15vw;
+  height: 4vh;
+  background-color: #F4CE14;
+  color: black;
+  border: black;
+  border-radius: 12;
+  font-family: karla;
+  font-weight: bold;
+  font-size: 1.2vw;
+  box-shadow: 1px 1px darkgray;
+  float: left;
+  text-align: center;
+}
+
+section.little-lemon {
+  display: flex;
+  flex-direction: row;
+  background-color: #495E57;
+  color: #EDEFEE;
+  /*padding-left: 0;
+  padding-right: 0;*/
+}
+
+h1 {
+  color: #F4CE14;
+  font-family: Markazi;
+  font-weight: bold;
+  font-size: 64;
+  text-align: left;
+}
+article.bio {
+  flex: .8;
+  padding-left:20px ;
+  padding-right: 50px;
+}
+
+ h3, p {
+  text-align: left;
+}
+
+img.bio-img {
+
+  flex-direction: row;
+  width: /*253px*/max-content;
+  height: 291px;
+  border: black;
+  border-radius: 20;
+  
+  float: right;
+
+}
+
+section.specials {
+  display: flex;
+}
+
+h2{
+  flex: 5;
+  text-align: left;
+  font: markazi;
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+}
+
+button.menu-btn {
+  flex: .7;
+  width: 145px;
+  height: 37px;
   background-color: #F4CE14;
   color: black;
   border: black;
@@ -81,26 +160,107 @@ button.btn {
   font-weight: bold;
   font-size: 24;
   box-shadow: 1px 1px darkgray;
+  float: right;
 }
 
-section.little-lemon {
+section.items {
   display: flex;
-  background-color: #495E57;
-  color: #EDEFEE;
+  padding-bottom: 20px;
+  width:fit-content;
 }
 
-h1 {
-  color: #F4CE14;
-  font-family: Markazi;
+article.greek-salad {
+  flex: 1;
+  background-color: #EDEFEE;
+  width: fit-content;
+
+}
+
+img{
+  width: 100%;
+  height: 180px;
+  padding: 0; 
+  margin: 0;
+}
+
+article.bruschetta {
+  flex: 1;
+  background-color: #EDEFEE;
+
+}
+
+p.price {
+  float: right;
+  font: karla;
+  font-size: 14px;
   font-weight: bold;
-  font-size: 64;
-}
-article.bio {
-  flex: 1;
+  color: #DB4242;
 }
 
-article.bio-img {
+article.lemon-dessert {
   flex: 1;
-  width: 253px;
-  height: 291px;
+  background-color: #EDEFEE;
+}
+
+img.delivery-icon {
+  width: 30px;
+  height: 30px;
+  float: center;
+  margin: 0;
+  background-color: #EDEFEE;
+  padding: 0 0 0 0;
+
+}
+
+p.p-food {
+  text-align: justify;
+  font: karla;
+  font-size: 16px;
+  font-weight: normal;
+  color: #333333;
+}
+
+p.delivery-food {
+  text-align: justify;
+  font: karla;
+  font-size: 16px;
+  font-weight:bold;
+  color: #333333;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+section.links {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h4 {
+font-weight: bold;
+font-size: 22px;
+font: markazi;
+color: black;
+}
+
+a {
+  font: karla;
+  font-weight: normal;
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+}
+
+li.contact-li {
+  font: karla;
+  font-weight: normal;
+  font-size: 17px;
+  color: black;
+}
+
+img.footer-img{
+  height: 270px;
+  width: 100%;
 }

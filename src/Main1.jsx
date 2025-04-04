@@ -13,37 +13,42 @@ return(
     <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
     <button className="btn">Reserve a Table</button>
     </article>
-    <article className="bio-img">
-    <img src={chef} width="253px" height="291px" alt="restaurant chef image"/>
+    <article> &nbsp;
+    <br></br>
+    </article>
+    <article>
+    <img className="bio-img" src={chef} alt="restaurant chef image"/>
     </article>
 </section>
 
 <section className="specials">
     <h2>This week's specials!</h2>
-    <button className="btn">Online Menu</button>
+    <button className="menu-btn">Online Menu</button>
+    </section>
+    <section className="items">
     <article className="greek-salad">
     <img src= {greeksalad} alt="image of a greek salad"/>
-    <h3>Greek Salad</h3>
-    <p>The famous Greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons</p>
-    <p>order a delivery</p>
-    <img src="/Deliveryicon.jpeg" alt="delivery icon"/>
+    <h3 className="h3-food">Greek Salad <p className="price">$12.99</p></h3>
+    <p className="p-food">The famous Greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with rosemary croutons.</p>
+    <p className="delivery-food">order a delivery &nbsp; <img className="delivery-icon" src="/Deliveryicon.jpeg" alt="delivery icon"/></p>
+    
     </article>
 
 
     <article className="bruschetta">
     <img src= {bruschetta} alt="image of bruschetta" />
-    <h3>Bruschetta</h3>
-    <p>Our Bruchetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.</p>
-    <p>order a delivery</p>
-    <img src="/Deliveryicon.jpeg" alt="delivery icon"/>
+    <h3  className="h3-food">Bruschetta<p className="price">$5.99</p></h3>
+    <p className="p-food">Our Bruchetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.</p>
+    <p className="delivery-food">order a delivery &nbsp;  <img className="delivery-icon" src="/Deliveryicon.jpeg" alt="delivery icon"/></p>
+   
     </article>
 
     <article className="lemon-dessert">
         <img src={lemondessert} alt="image of lemon dessert" />
-        <h3>Lemon Dessert</h3>
-        <p>This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined</p>
-        <p>order a delivery</p>
-        <img src="/Deliveryicon.jpeg" alt="delivery icon"/>
+        <h3  className="h3-food">Lemon Dessert <p className="price">$5.99</p></h3>
+        <p className="p-food">This comes straight from grandma’s recipe book, every ingredient has been sourced and is as authentic as can be imagined.</p>
+        <p className="delivery-food">order a delivery &nbsp; <img className="delivery-icon" src="/Deliveryicon.jpeg" alt="delivery icon"/></p>
+        
     </article>
 </section>
 </>

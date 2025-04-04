@@ -5,13 +5,12 @@ const Header = () => {
         <article>
         <header >
               {
-                <img src = {logo} alt="logo" width="200px" />
+                <img className="header-logo" src = {logo} alt="logo" width="200px" />
 
                  }
         </header>
 </article>
         <article className="nav">
-        <nav>
             <ul className="nav-ul">
                    <li className="nav-li"><a className="nav-a" href="">Home</a></li>
                    <li className="nav-li"><a className="nav-a" href="">About</a></li>
@@ -20,7 +19,7 @@ const Header = () => {
                    <li className="nav-li"><a className="nav-a"href="">Order Online</a></li>
                    <li className="nav-li"><a className="nav-a"href="">Login</a></li>
             </ul>
-        </nav>
+
 
         </article>
         </section>)
