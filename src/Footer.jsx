@@ -6,7 +6,7 @@ return(
         <article>
             <img className='footer-img' src={asset} alt='image'/>
         </article>
-        <article>
+        <article className='footer-link'>
 <h4>Important Links</h4>
 <ul>
 <li className="links-li"><a href="">Home</a></li>
@@ -18,7 +18,7 @@ return(
  </ul>
  </article>
 
- <article>
+ <article className='footer-link'>
  <h4>Contact</h4>
  <ul>
 <li className="contact-li">Address:<br></br>123 street, Chicago</li>
@@ -27,7 +27,7 @@ return(
 </ul>
 </article>
 
-<article>
+<article className='footer-link'>
 <ul>
     <h4>Social Media Links</h4>
     <li className="social-li"><a href="">Instagram</a></li>

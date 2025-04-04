@@ -62,15 +62,14 @@ ul.nav-ul {
 list-style-type: none;
 margin:0;
 padding: 0;
-overflow: hidden;
 color: black;
 flex: 1;
-float: right;
+flex-direction: row-reverse;
 }
 
 li.nav-li {
+flex-direction: row;
 float: right;
-
 padding-top: 5px;
 margin: 5px;
 }
@@ -91,14 +90,20 @@ button.btn {
   border-radius: 12;
   font-family: karla;
   font-weight: bold;
-  font-size: 1.2vw;
+  font-size: 24;
   box-shadow: 1px 1px darkgray;
   float: left;
-  text-align: center;
+  text-align: top;
+  
+}
+
+button.btn:hover {
+  color:#DB4242;
 }
 
 section.little-lemon {
   display: flex;
+  width: fit-content;
   flex-direction: row;
   background-color: #495E57;
   color: #EDEFEE;
@@ -161,6 +166,10 @@ button.menu-btn {
   font-size: 24;
   box-shadow: 1px 1px darkgray;
   float: right;
+}
+
+button.menu-btn:hover{
+  color: #DB4242;
 }
 
 section.items {
@@ -254,6 +263,7 @@ a {
 }
 
 li.contact-li {
+  flex: 1;
   font: karla;
   font-weight: normal;
   font-size: 17px;
@@ -261,6 +271,11 @@ li.contact-li {
 }
 
 img.footer-img{
+  flex: 1;
   height: 270px;
   width: 100%;
+}
+
+article.footer-link{
+  flex: 1;
 }
