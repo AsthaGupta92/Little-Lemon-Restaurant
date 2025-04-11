@@ -188,7 +188,7 @@ article.greek-salad {
 img{
   width: 100%;
   height: 180px;
-  padding: 0; 
+  padding: 0;
   margin: 0;
 }
 
@@ -216,6 +216,7 @@ img.delivery-icon {
   height: 30px;
   float: center;
   margin: 0;
+  border: 0;
   background-color: #EDEFEE;
   padding: 0 0 0 0;
 

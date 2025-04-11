@@ -31,16 +31,15 @@ return(
     <h3 className="h3-food">Greek Salad <p className="price">$12.99</p></h3>
     <p className="p-food">The famous Greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with rosemary croutons.</p>
     <p className="delivery-food">order a delivery &nbsp; <img className="delivery-icon" src="/Deliveryicon.jpeg" alt="delivery icon"/></p>
-    
     </article>
 
 
     <article className="bruschetta">
     <img src= {bruschetta} alt="image of bruschetta" />
     <h3  className="h3-food">Bruschetta<p className="price">$5.99</p></h3>
-    <p className="p-food">Our Bruchetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.</p>
+    <p className="p-food">Our Bruchetta is made from grilled bread that has been smeared with garlic,topped with tomatoes and seasoned with salt and olive oil.</p>
     <p className="delivery-food">order a delivery &nbsp;  <img className="delivery-icon" src="/Deliveryicon.jpeg" alt="delivery icon"/></p>
-   
+
     </article>
 
     <article className="lemon-dessert">
@@ -48,7 +47,7 @@ return(
         <h3  className="h3-food">Lemon Dessert <p className="price">$5.99</p></h3>
         <p className="p-food">This comes straight from grandma’s recipe book, every ingredient has been sourced and is as authentic as can be imagined.</p>
         <p className="delivery-food">order a delivery &nbsp; <img className="delivery-icon" src="/Deliveryicon.jpeg" alt="delivery icon"/></p>
-        
+
     </article>
 </section>
 </>
