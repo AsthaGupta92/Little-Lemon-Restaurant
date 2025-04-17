@@ -3,6 +3,7 @@
   margin: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  overflow: visible;
 }
 
 /*.logo {
@@ -280,3 +281,4 @@ img.footer-img{
 article.footer-link{
   flex: 1;
 }
+

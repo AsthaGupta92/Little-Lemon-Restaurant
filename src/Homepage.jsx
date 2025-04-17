@@ -2,7 +2,9 @@ import chef from "/restaurantchef.png";
 import greeksalad from "/greeksalad.jpg";
 import bruschetta from "/bruschetta.jpg";
 import lemondessert from "/lemondessert.jpg";
-const Main = () => {
+
+
+const Homepage = () => {
 return(
 <>
 
@@ -54,4 +56,4 @@ return(
 )
 }
 
-export default Main;
+export default Homepage;
