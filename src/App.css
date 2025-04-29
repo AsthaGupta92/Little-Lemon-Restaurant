@@ -84,7 +84,7 @@ text-align: center;
 
 button.btn {
   width: 15vw;
-  height: 4vh;
+  height: 5.4vh;
   background-color: #F4CE14;
   color: black;
   border: black;
@@ -94,8 +94,12 @@ button.btn {
   font-size: 24;
   box-shadow: 1px 1px darkgray;
   float: left;
-  text-align: top;
-  
+  text-align:center;
+}
+
+
+button.btn:active{
+  transform: translateY(3px);
 }
 
 button.btn:hover {
@@ -167,6 +171,10 @@ button.menu-btn {
   font-size: 24;
   box-shadow: 1px 1px darkgray;
   float: right;
+}
+
+button.menu-btn:active{
+  transform: translateY(3px);
 }
 
 button.menu-btn:hover{
@@ -264,6 +272,14 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+  color: #DB4242;
+}
+
+a.reserve{
+  font-weight: bold;
+}
+
 li.contact-li {
   flex: 1;
   font: karla;
@@ -282,3 +298,32 @@ article.footer-link{
   flex: 1;
 }
 
+.reservation{
+  display: flex;
+}
+
+.reservation-column{
+  flex: 1;
+  text-align: center;
+}
+
+.confirm-button{
+  text-align: center;
+}
+
+.confirm-btn{
+  background-color: #F4CE14;
+  color: #333333;
+  border-radius: 12px;
+  font-family: karla;
+  font-weight: bold;
+}
+
+.heading{
+  text-align: center;
+  color: black;
+  font-family: markazi;
+  font-weight: bold;
+
+  font-size: 30px;
+}

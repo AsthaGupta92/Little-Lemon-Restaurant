@@ -2,7 +2,7 @@ import chef from "/restaurantchef.png";
 import greeksalad from "/greeksalad.jpg";
 import bruschetta from "/bruschetta.jpg";
 import lemondessert from "/lemondessert.jpg";
-
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
 return(
@@ -13,7 +13,7 @@ return(
     <h1>Little Lemon</h1>
     <h3>Chicago</h3>
     <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-    <button className="btn">Reserve a Table</button>
+    <button className="btn"><a className="reserve" href="/Reservations"> Reserve a Table</a></button>
     </article>
     <article> &nbsp;
     <br></br>
